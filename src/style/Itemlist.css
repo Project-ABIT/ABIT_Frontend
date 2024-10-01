@@ -1,0 +1,25 @@
+.item-list{
+    height: 12.5em;
+    box-sizing: border-box;
+    padding-left: 1em;
+    width: 100vw;
+    position: relative;
+}
+.items{
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -ms-overflow-style: none;
+}
+.items::-webkit-scrollbar{ display:none; }
+.item-node{
+    height: 10.5em;
+    width: 6.25em;
+    flex: 0 0 auto;
+}
+.title{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
